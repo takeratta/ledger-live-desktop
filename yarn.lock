@@ -10947,6 +10947,11 @@ mem@^1.1.0:
   dependencies:
     mimic-fn "^1.0.0"
 
+memoize-one@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/memoize-one/-/memoize-one-4.1.0.tgz#a2387c58c03fff27ca390c31b764a79addf3f906"
+  integrity sha512-2GApq0yI/b22J2j9rhbrAlsHb0Qcz+7yWxeLG8h+95sl1XPUgeLimQSOdur4Vw7cUhrBHwaUZxWFZueojqNRzA==
+
 memory-fs@^0.4.0, memory-fs@~0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/memory-fs/-/memory-fs-0.4.1.tgz#3a9a20b8462523e447cfbc7e8bb80ed667bfc552"
@@ -13292,13 +13297,14 @@ react-router@^4.2.0, react-router@^4.3.1:
     prop-types "^15.6.1"
     warning "^4.0.1"
 
-react-select@2.0.0-beta.6:
-  version "2.0.0-beta.6"
-  resolved "https://registry.yarnpkg.com/react-select/-/react-select-2.0.0-beta.6.tgz#87ac27831f348cb9535dfd825534934adcfb7e97"
-  integrity sha512-V/zhSPIlhygRM9xI+nWRh3Eqhi8VM5Ae/rCRAx3skEo9F/tbHGAekZhs77jruDe6u5x8Mp48Sm056TuSCIA4AA==
+react-select@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-select/-/react-select-2.0.0.tgz#7e7ba31eff360b37ffc52b343a720f4248bd9b3b"
+  integrity sha512-i2yWg8tbsY37iPimIvQ0TtIrAzxgGWQTRDZrZPQ2QVNkyHPxDartMkzf2x2Enm6wRkt9I5+pEKSIcvkwIkkiAQ==
   dependencies:
     classnames "^2.2.5"
     emotion "^9.1.2"
+    memoize-one "^4.0.0"
     prop-types "^15.6.0"
     raf "^3.4.0"
     react-input-autosize "^2.2.1"
